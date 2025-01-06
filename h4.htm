@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borcelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            gap: 1px;
+            width: 1000px;
+            height: 760px;
+            margin-left: 17%;
+            margin-top: 1%;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: #f3efef;
+
+        }
+        .course {
+           
+            flex: 1 1 45%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            
+        }
+        .course img {
+            max-width: 400px;
+            height: 240px;
+            object-fit: cover;
+            /* border-radius: 8px; */
+            margin-right: 20px;
+            border: 1px solid palevioletred;
+            margin-left: 5%;
+            margin-top: 10%;
+        }
+        .course-text {
+            max-width: 450px;
+            text-align: justify;
+            /* margin-top: 20%; */
+            margin-right: 5%;
+            margin-top: 10%;
+        }
+        h2 {
+            margin-top: 0;
+            color: #2d2d2f;
+        }
+        .read-more {
+            background-color: #ccc3bd;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            cursor: pointer;
+            color: #2d2d2f;
+            font-weight: bold;
+            margin-left: 70%;
+            width: 140px;
+        }
+        .read-more:hover {
+            background-color: #b3a297;
+        }
+        .course0 {
+            
+            width: 500px;
+            
+            margin-top: -40%;
+           
+            
+            
+        }
+        .course0 img {
+            max-width: 400px;
+            height: 240px;
+            object-fit: cover;
+            /* border-radius: 8px; */
+            /* margin-right: 20px; */
+            border: 1px solid rgb(185, 138, 154);
+            margin-left: 110%;
+            margin-top: -100%;
+            
+            
+            
+        }
+        .course-text0 {
+            max-width: 450px;
+            margin-top: 80%;
+            margin-left: 10%;
+            text-align: justify;
+        }
+        /* Navbar */
+        header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    z-index: 1000;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    margin-top: -0.2%;
+    
+    
+}
+header nav a {
+    
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(222, 126, 29);
+    cursor: pointer;
+    
+    
+    
+}
+header nav .logo a p{
+            color: #333;
+            margin-left: -30%;
+            margin-top: 40%;
+            
+
+        }
+     
+header nav .blocka{
+        display: flex;
+        gap: 32px;
+        
+        margin-left: 2%;
+        margin-top: 3%;
+    }  
+header hr{
+    margin-top: 0.2%;
+    margin-left: 18.5%;
+}      
+    
+
+
+
+    </style>
+</head>
+<body>
+
+    
+        <!-- Navbar -->
+        <header>
+            <nav>
+              <div class="logo">
+                <a  href="#" ><p>🐺BORCELLE</p></a>
+              </div> 
+              <div class="blocka">
+                <a href="ho1.htm#home">HOME</a>
+                <a href="/h3.htm#about">ABOUT</a>
+                <a href="/h4.htm#courses">COURSES</a>
+                <a href="/h5.htm#shop">SHOP</a>
+                <a href="/h6.htm#contact">CONTACT</a>
+                <a href="/h7.html#subcontact">NEXT-CONTACT</a>
+                <a href="/h8.html#lasecontace">LAST-CONTACT</a>
+                
+              </div> 
+                
+                
+            </nav>
+            <hr style="width: 990px;height: 1.5px; background-color: rgb(160, 158, 158);">
+        </header>
+        <div class="container">
+        <div class="course">
+            <img src="https://cdn.pixabay.com/photo/2020/03/13/03/58/handmade-soap-4926841_1280.jpg" alt="Beauty at home">
+            <div class="course-text">
+                <h2>Beauty at home</h2>
+                <p>A 6-week online course</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                
+                </p>
+                <button class="read-more">Read More</button>
+            </div>
+        </div>
+
+        <div class="course0">
+             <div class="course-text0">
+                <h2>Cosmetology</h2>
+                <p>A 4-week online course</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                 </p>
+                <button class="read-more">Read More</button>
+                <img src="https://cdn.pixabay.com/photo/2020/03/28/14/40/soap-4977316_1280.jpg" alt="Cosmetology">
+           
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

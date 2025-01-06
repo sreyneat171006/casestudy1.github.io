@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Borcelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .nav a.active {
+            color: #D89B74;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 1000px;
+            margin-left: 16%;
+            margin-top: -0.1%;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: #f3efef;
+            height: 760px;
+            /* margin-bottom: -5%; */
+        }
+
+        .contact-info {
+            max-width: 50%;
+            margin-top: 20%;
+            margin-left: 5%;
+        }
+
+        .email {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .form{
+            margin-top: 20%;
+            margin-right: 5%;
+        }
+
+        .form {
+            background-color: #6e5b51;
+            padding: 20px;
+            border-radius: 5px;
+            max-width: 40%;
+        }
+
+        .form input, .form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            /* padding: 10px; */
+            border: none;
+            border-radius: 3px;
+            height: 30px;
+        }
+
+        .form textarea {
+            resize: none;
+            height: 100px;
+            
+        }
+
+        .form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #B0A396;
+            border: none;
+            border-radius: 3px;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+        }
+        header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    
+    z-index: 1000;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(222, 126, 29);
+    cursor: pointer;
+    font-size: 16px;
+}
+.content nav .logo a p{
+            color: #333;
+            margin-left: -28%;
+            margin-top: -28%;
+}
+.content header{
+     margin-left: -17.5%;
+     margin-top: 2%;
+}
+.content header hr{
+    margin-top: -2%;
+}
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="content">
+        <!-- header -->
+        <header>
+            <nav>
+              <div class="logo">
+                <a href="#" ><p>🐺BORCELLE</p></a>
+              </div> 
+              <div class="blocka">
+                <a href="ho1.htm#home">HOME</a>
+                <a href="/h3.htm#about">ABOUT</a>
+                <a href="/h4.htm#courses">COURSES</a>
+                <a href="/h5.htm#shop">SHOP</a>
+                <a href="/h6.htm#contact">CONTACT</a>
+                <a href="/h7.html#subcontact">NEXT-CONTACT</a>
+                <a href="/h8.html#lasecontace">LAST-CONTACT</a>
+              </div> 
+                
+                
+            </nav>
+            <hr style="width: 990px;height: 2px; background-color: rgb(160, 158, 158);">
+        </header>
+        <!-- end -->
+
+        <div class="contact-info">
+            <h1>Contact</h1>
+            <p><b><i>Please fill out the form below to send us an email.</i></b></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="email">E-mail: hello@reallygreatsite.com</div>
+        </div>
+
+        <div class="form">
+            <form>
+                <input type="text" name="name" placeholder="NAME">
+                <input type="email" name="email" placeholder="E-MAIL">
+                <input type="text" name="subject" placeholder="SUBJECT">
+                <textarea name="message" placeholder="MESSAGE"></textarea>
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

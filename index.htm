@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borcelle</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            
+            
+
+        }
+        .container {
+            width: 1000px;
+            height: 760px;
+            margin-left: 17%;
+            margin-top: 1%;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: #f3efef;
+            
+            
+
+
+        }
+        nav {
+            
+            padding: 10px 0;
+            text-align: center; 
+
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px; 
+            font-weight: bold; 
+
+        }
+        
+        .hero-text {
+           text-align: left;
+           margin-bottom: 20px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+
+
+        }
+
+        .product-image {
+            width: 100%;
+            height: auto;
+
+        }
+        .shop-button {
+            padding: 10px 20px;
+            margin-top: -2%;
+            background-color: #ddd;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 8px;
+            width: 100px;
+            margin-left: 40%;
+            
+            
+            
+            
+        }
+        header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    z-index: 1000;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+header nav a {
+    
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(222, 126, 29);
+    cursor: pointer;
+    
+    
+    
+}
+
+/* Put text on image */
+.image-container {
+            position: relative;
+            width: 960px;
+            
+            
+        }
+
+        .image-container img {
+            width: 100%;
+            height:350px;
+            margin: 20px;
+            
+            
+        }
+
+        .text-overlay {
+            position: absolute;
+            top: 70%; /* Center vertically */
+            left: 13%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Adjust for perfect centering */
+            color: white;
+            font-size: 2em;
+            font-family: Arial, sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: for better visibility */
+            text-align: start;
+        }
+        .container nav .logo a{
+            color: #333;
+            margin-left: -50%;
+        }
+        .container header{
+            
+            margin-left: -17.5%;
+            margin-top: 2%;
+
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <nav>
+              <div class="logo">
+                <a href="#" >🐺BORCELLE</a>
+              </div> 
+              <div class="blocka">
+                <a href="ho1.htm#home">HOME</a>
+                <a href="/h3.htm#about">ABOUT</a>
+                <a href="/h4.htm#courses">COURSES</a>
+                <a href="/h5.htm#shop">SHOP</a>
+                <a href="/h6.htm#contact">CONTACT</a>
+                <a href="/h7.html#subcontact">NEXT-CONTACT</a>
+                <a href="/h8.html#lasecontace">LAST-CONTACT</a>
+              </div> 
+                
+                
+            </nav>
+            <hr style="width: 990px;height: 1px; background-color: rgb(160, 158, 158);">
+        </header>
+        
+        <nav>
+            <a href="#">
+                <div class="hero">
+                    <div class="image-container">
+                        <img src="https://media.istockphoto.com/id/510067904/photo/close-up-of-handmade-soap-bars-on-wood.jpg?s=612x612&w=0&k=20&c=fVva7ENOfRxxHGTLytuXZjQb3KDDg_2AEHajGQc9T5o=" alt="Hero Image" class="hero-image"> 
+                        <div class="text-overlay">Clean.<br> Moisture.<br>Care.</div>
+                </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt .</p>
+          
+                  <a href="#" class="shop-button">SHOP NOW</a>
+          
+          
+                  <div class="product-grid">
+                    
+                      <img src="https://media.istockphoto.com/id/833747288/photo/organic-floral-soap-natural-skincare-soaps-with-flowers-extract.jpg?s=612x612&w=0&k=20&c=RqHaC0-zI1JU5HGqsrUOQk81GWsPxokcw3loWr5dUYc=" alt="Product 1" class="product-image">
+                      <img src="https://media.istockphoto.com/id/2155218776/photo/handmade-soap-made-with-natural-skin-care-products.jpg?s=612x612&w=0&k=20&c=Tcf4T7420GV3AbEUC6pt2SiYaqxHiznrZeVX-l3R_dM=" alt="Product 2" class="product-image">
+                      <img style="width: 300px;height: 215px;" src="https://media.istockphoto.com/id/2170352168/photo/bathroom-items-with-crafted-bars-of-soap-towel-and-aroma-candle-on-wooden-tray.jpg?s=612x612&w=0&k=20&c=-iiXhBeWV1KxVEPCv90n9IGtktEWZXadjVrC1bNsRRE=" alt="Product 3" class="product-image">
+                  </div>
+          
+              </div>
+            </a>
+            
+        </nav>
+
+    </div>   
+</body>
+</html>
